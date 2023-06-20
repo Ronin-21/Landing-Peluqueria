@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/font": "^13.4.6",
     "@react-google-maps/api": "^2.18.1",
     "next": "13.4.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-icons": "^4.9.0",
-    "sass": "^1.63.4"
+    "react-icons": "^4.9.0"
   },
   "devDependencies": {
     "config-node": "^1.3.0",
@@ -24,6 +24,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.8",
+    "sass": "^1.63.4",
     "standard": "^17.1.0"
   }
 }

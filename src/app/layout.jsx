@@ -1,14 +1,17 @@
+import { GREAT_VIBES, MARTEL, POPPINS } from '@/constants/fonts';
 import './globals.scss';
+import Navbar from '@/components/Navbar/Navbar';
+import Footer from '@/components/Footer/Footer';
 
 const RootLayout = ({ children }) => {
 	return (
-		<html lang='es'>
+		<html
+			lang='es'
+			className={`${GREAT_VIBES.variable} ${MARTEL.variable} ${POPPINS.variable}`}>
 			<body>
-				<header>
-					<nav></nav>
-				</header>
+				<Navbar />
 				{children}
-				<footer></footer>
+				<Footer />
 			</body>
 		</html>
 	);
