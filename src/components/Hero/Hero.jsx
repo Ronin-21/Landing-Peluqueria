@@ -10,7 +10,7 @@ const Hero = () => {
 					Beauty Hair
 				</h1>
 				<h3>Change your look with our talented stylists</h3>
-				<MyButton>Reservar turno</MyButton>
+				<MyButton goTo='#contact'>Reservar turno</MyButton>
 			</div>
 			<p className='hero-horarios'>
 				Lunes a Viernes - 9:00 a 13:00 - 17:00 a 21:00

@@ -13,24 +13,8 @@
 		justify-content: space-between;
 		gap: 3rem;
 
-		& h4 {
-			position: relative;
+		.about-title {
 			align-self: flex-start;
-			font-family: var(--font-title);
-			font-size: 3.3em;
-			font-weight: 500;
-			line-height: 1.2;
-
-			&::before {
-				content: '';
-				position: absolute;
-				bottom: 0;
-				left: 0;
-				width: 10%;
-				height: 3px;
-				background-color: var(--primary-color);
-				box-shadow: 0 0 10px 1px var(--primary-color);
-			}
 		}
 
 		.about-content {

@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import imgBanner from '../../../public/images/banner.jpg';
+import imgBanner from '../../../public/images/banner.webp';
 import './Banner.scss';
 
 const Banner = () => {

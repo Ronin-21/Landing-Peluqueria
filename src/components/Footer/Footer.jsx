@@ -1,12 +1,7 @@
 import Image from 'next/image';
-import {
-	FaFacebookF,
-	FaInstagram,
-	FaTwitter,
-	FaWhatsapp,
-} from 'react-icons/fa';
-import { MdEmail, MdLocationOn, MdPhone } from 'react-icons/md';
-import logo from '../../../public/images/logo.svg';
+import logo from '../../../public/images/logo.webp';
+import ContactInfo from '../Common/ContactInfo/ContactInfo';
+import SocialMedia from '../Common/SocialMedia/SocialMedia';
 import './Footer.scss';
 
 const Footer = () => {
@@ -18,36 +13,10 @@ const Footer = () => {
 					<h3>Peluquería</h3>
 				</a>
 			</div>
-			<div className='info-contact'>
-				<div>
-					<MdLocationOn />
-					<p>Sarmiento 512</p>
-				</div>
-				<div>
-					<MdPhone />
-					<p>+54 9 3858 156235</p>
-				</div>
-				<div>
-					<MdEmail />
-					<p>ejemplo@gmail.com</p>
-				</div>
-			</div>
+			<ContactInfo />
 			<hr className='footer-linea' />
 			<div className='footer-contact'>
-				<div className='footer-social'>
-					<a href='https://www.facebook.com' target='_blank' rel='noreferrer'>
-						<FaFacebookF />
-					</a>
-					<a href='https://www.instagram.com' target='_blank' rel='noreferrer'>
-						<FaInstagram />
-					</a>
-					<a href='https://www.twitter.com' target='_blank' rel='noreferrer'>
-						<FaTwitter />
-					</a>
-					<a href='https://www.twitter.com' target='_blank' rel='noreferrer'>
-						<FaWhatsapp />
-					</a>
-				</div>
+				<SocialMedia />
 				<p className='footer-copyrights'>
 					&copy; Copyright 2023 By Abel Alejandro Acuña
 				</p>

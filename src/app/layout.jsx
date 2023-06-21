@@ -8,7 +8,7 @@ const RootLayout = ({ children }) => {
 		<html
 			lang='es'
 			className={`${GREAT_VIBES.variable} ${MARTEL.variable} ${POPPINS.variable}`}>
-			<body>
+			<body suppressHydrationWarning={true}>
 				<Navbar />
 				{children}
 				<Footer />

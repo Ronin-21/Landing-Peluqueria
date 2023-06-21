@@ -19,25 +19,6 @@
 		justify-content: space-between;
 	}
 
-	.navbar-social {
-		font-size: 1.5rem;
-		display: flex;
-		align-items: center;
-		gap: 1.5rem;
-
-		& a {
-			transition: all 0.2s ease-in;
-			-webkit-transition: all 0.2s ease-in;
-			-moz-transition: all 0.2s ease-in;
-			-ms-transition: all 0.2s ease-in;
-			-o-transition: all 0.2s ease-in;
-
-			&:hover {
-				color: var(--primary-color);
-			}
-		}
-	}
-
 	.navbar-links {
 		height: 100%;
 		font-family: var(--font-subtitle);
@@ -87,7 +68,8 @@
 	width: 100%;
 
 	.sub-navbar-container {
-		width: var(--max-width);
+		width: 100%;
+		max-width: var(--max-width);
 		margin: 0.7rem auto;
 		font-size: 1.5rem;
 		display: flex;
@@ -107,28 +89,6 @@
 			& img {
 				width: 100px;
 				height: auto;
-				mix-blend-mode: multiply;
-				filter: hue-rotate(250deg);
-				-webkit-filter: hue-rotate(250deg);
-			}
-		}
-
-		.info-contact {
-			font-size: 1rem;
-			display: flex;
-			align-items: center;
-			gap: 3rem;
-
-			& div {
-				font-family: var(--font-subtitle);
-				font-weight: 500;
-				display: flex;
-				align-items: center;
-				gap: 0.5rem;
-
-				& svg {
-					color: var(--primary-color);
-				}
 			}
 		}
 	}

@@ -1,21 +1,24 @@
 import { GALLERY } from '@/constants/galleryImages';
 import Image from 'next/image';
+import MyTitle from '../Common/MyTitle/MyTitle';
 import './Gallery.scss';
 
 const Gallery = () => {
 	return (
-		<section className='gallery-section'>
+		<section className='gallery-section' id='gallery'>
 			<div className='gallery-container'>
-				<h4>Our Works</h4>
+				<MyTitle>Our Works</MyTitle>
 				<div className='gallery-content'>
 					{GALLERY.map((image, index) => {
 						return (
-							<Image
-								className='gallery-image'
-								src={image}
-								key={index}
-								alt='gallery-img'
-							/>
+							<div className='image-container'>
+								<Image
+									className='gallery-image'
+									src={image}
+									key={index}
+									alt='gallery-img'
+								/>
+							</div>
 						);
 					})}
 				</div>

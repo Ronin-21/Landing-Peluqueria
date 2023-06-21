@@ -1,12 +1,13 @@
 import { SERVICES } from '@/constants/cardServices';
-import MyButton from '../Common/MyButton/MyButton';
 import Image from 'next/image';
+import MyButton from '../Common/MyButton/MyButton';
+import MyTitle from '../Common/MyTitle/MyTitle';
 import './OurServices.scss';
 
 const OurServices = () => {
 	return (
-		<section className='services-section'>
-			<h4>Our Services</h4>
+		<section className='services-section' id='services'>
+			<MyTitle>Our Services</MyTitle>
 			<div className='services-content'>
 				{SERVICES.map((card, index) => {
 					return (
@@ -14,7 +15,7 @@ const OurServices = () => {
 							<Image src={card.image} alt='card-img' />
 							<div className='card-content'>
 								<h6>{card.title}</h6>
-								<MyButton>Reserva tu turno</MyButton>
+								<MyButton goTo='#contact'>Reserva tu turno</MyButton>
 							</div>
 						</div>
 					);
