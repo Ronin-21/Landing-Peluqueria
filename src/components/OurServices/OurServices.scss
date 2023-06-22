@@ -54,6 +54,33 @@
 					font-size: 3em;
 					font-weight: 500;
 					margin-bottom: 2rem;
+					text-shadow: var(--text-shadow);
+				}
+			}
+		}
+	}
+
+	@media (max-width: 680px) {
+		margin: 5rem 0;
+		gap: 2rem;
+
+		.services-content {
+			flex-direction: column;
+			height: 800px;
+
+			.card {
+				width: 100%;
+				align-items: flex-start;
+				justify-content: flex-start;
+
+				.card-content {
+					left: 10%;
+					top: 50%;
+
+					& h6 {
+						font-size: 1.8rem;
+						margin-bottom: 1rem;
+					}
 				}
 			}
 		}

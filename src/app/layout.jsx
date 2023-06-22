@@ -3,6 +3,13 @@ import './globals.scss';
 import Navbar from '@/components/Navbar/Navbar';
 import Footer from '@/components/Footer/Footer';
 
+export const metadata = {
+	title: 'Mi Peluqueria',
+	description: 'Landing Page de un salon de peluqueria, creado con Next Js',
+	keywords: ['Next.js', 'React', 'JavaScript'],
+	authors: [{ name: 'Abel Acuña', url: 'https://ronin-webdesign.vercel.app/' }],
+};
+
 const RootLayout = ({ children }) => {
 	return (
 		<html

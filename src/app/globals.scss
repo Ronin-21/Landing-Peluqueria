@@ -6,7 +6,9 @@
 	--text-color: #262626;
 	--primary-color: #e62788;
 	--overlay-color: rgba(0, 0, 0, 0.2);
+	--overlay-color-primary: rgba(230, 39, 136, 0.1);
 	--shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
+	--text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 /* Desactivamos los animations en el caso de que el usuario haya configurado el modo sin animation */

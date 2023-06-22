@@ -15,4 +15,9 @@
 			color: var(--primary-color);
 		}
 	}
+
+	@media (max-width: 680px) {
+		flex-direction: column;
+		gap: 0.5rem;
+	}
 }

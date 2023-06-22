@@ -39,4 +39,16 @@
 			}
 		}
 	}
+
+	@media (max-width: 680px) {
+		flex-direction: column;
+		padding: 0;
+		gap: 1rem;
+
+		.prices-list {
+			.prices-title {
+				margin-bottom: 1rem;
+			}
+		}
+	}
 }

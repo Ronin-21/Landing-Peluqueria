@@ -51,4 +51,25 @@
 			background-color: var(--primary-color);
 		}
 	}
+
+	@media (max-width: 680px) {
+		flex-direction: column;
+		margin: 5rem 0;
+		gap: 2rem;
+
+		.img-container {
+			width: 100%;
+			min-height: 500px;
+			padding: 5rem 2rem 0 0;
+
+			.img-prices {
+				max-height: 300px;
+			}
+		}
+
+		.content {
+			width: 100%;
+			gap: 1.5rem;
+		}
+	}
 }

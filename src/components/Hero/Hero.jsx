@@ -3,7 +3,7 @@ import './Hero.scss';
 
 const Hero = () => {
 	return (
-		<div className='hero' id='home'>
+		<div className='hero'>
 			<div className='hero-content'>
 				<h1>
 					More than just <br />

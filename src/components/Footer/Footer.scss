@@ -42,4 +42,30 @@
 			color: var(--primary-color);
 		}
 	}
+
+	@media (max-width: 680px) {
+		padding: 3rem 0 1rem 0;
+
+		.footer-logo {
+			& h3 {
+				font-size: 2.5rem;
+			}
+			& img {
+				width: 125px;
+			}
+		}
+
+		.footer-contact {
+			grid-template-columns: 1fr;
+
+			.footer-horarios {
+				text-align: center;
+			}
+
+			.footer-copyrights {
+				grid-row: 3;
+				font-size: 14px;
+			}
+		}
+	}
 }

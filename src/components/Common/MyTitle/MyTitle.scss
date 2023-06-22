@@ -15,4 +15,13 @@
 		background-color: var(--primary-color);
 		box-shadow: 0 0 10px 1px var(--primary-color);
 	}
+
+	@media (max-width: 680px) {
+		text-align: center;
+		font-size: 2.8rem;
+
+		&::before {
+			display: none;
+		}
+	}
 }
